@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ 
+   
+}
+
+.container{
+   
+    width: 902px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-size: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    border-radius: 8px;
+    color: hsla(0, 0%, 100%, 0.75);
+   
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-color: #e38826;
+    font-size: 17px;
+    border-radius: 0px;
+    border-radius: 5px 0px 0px 5px;
+   
+
+}
+
+.text p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+
+.card-two{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-color: #006970;
+    font-size: 17px;
+
+}
+
+.card-tre{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-color:#004241;
+    font-size: 17px;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+
+
+.img,.text,.btn{
+    margin: 40px;
+}
+
+
+/* buttons */
+
+.card .btn a{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #e38826;
+    background-color: white;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    
+}
+
+
+.card-two .btn a {
+
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #006970;
+    background-color: white;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    
+
+}
+.card-tre .btn a {
+
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #004241;
+    background-color: white;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    
+
+}
