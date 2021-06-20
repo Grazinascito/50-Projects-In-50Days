@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 3px solid red;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(153, 150, 146, 0.459);
+    
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 700px;
+    border: 2px solid red;
+    border-radius: 8px;
+     background-color: white;
+}
+
+.img img{
+    width: 300px;
+ 
+}
+
+.text{
+    font-size: 14px;
+   padding: 5px 50px;
+}
+
+.text p {
+    margin-top: 10px;
+}
+
+.perfil img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.perfil h1{
+    font-size: 14px;
+}
