@@ -48,7 +48,7 @@ header{
 }
 
 .sidebar{
-    background: #2F323A;
+    background: #22242a;
     margin-top: 0px;
     width: 250px;
     height: 100vh;
@@ -57,7 +57,7 @@ header{
 .nav{
     display: flex;
     flex-direction: column;
-    border: red 2px solid;
+    
 }
 
 .nav a{
@@ -93,7 +93,7 @@ i{
 }
 
 .middle{
-    border: 5px solid blue;
+    background: #2F323A;
     height: 100vh;
 }
 
@@ -104,6 +104,28 @@ i{
 
 .middle{
     width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+.season{
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.season img{
+height: 260px;
+margin-left: 7px;
+border-radius: 4px;
+}
+
+.season p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 
