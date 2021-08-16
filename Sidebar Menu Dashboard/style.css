@@ -140,7 +140,7 @@ cursor: pointer;
     font-size: 18px;
 }
 
-label #sidebar_btn{
+#sidebar_btn{
     z-index: 1;
     color: #fff;
     cursor: pointer;
@@ -150,21 +150,40 @@ label #sidebar_btn{
    margin-left: 20px;
     margin-top: -10px;
     transition: 0.6s;
+    
 }
 
-label #sidebar_btn:hover{
+#sidebar_btn.hidden{
+    display: none;
+}
+
+ #sidebar_btn:hover{
     color: #dd0d1b;
 }
 #check ~ .sidebar{
     transition: 1s;
-   
+
 }
 
+#btn-close {
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    transition: 0.6s;
+    display: none;
+    margin-left: 20px;
+}
 
+#btn-close:hover{
+    color: #dd0d1b;
+}
 
+#btn-close.show{
+    display: block;
+}
 #check:checked ~ .sidebar{
     margin-left: -210px;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     
    
 }
@@ -175,8 +194,6 @@ label #sidebar_btn:hover{
     width: 40px;
    
    
-    
-    /* margin-bottom: 200px; */
 }
 
 #check:checked ~ .sidebar .nav{
